@@ -1,29 +1,38 @@
 # Towards Scalable Annotation of Math Word Problems
 
-This repository contains the code and data accompanying the ICCE 2025 paper:
+This repository provides the **code** and **datasets** for our ICCE 2025 paper:
 
-**“Towards Scalable Annotation of Math Word Problems: Knowledge Component Tagging via LLMs and Sentence Embeddings”**  
-by Chor Seng Tan, Chengwei Wei, and Jung-Jae Kim  (Institute for Infocomm Research, A*STAR, Singapore)
+> **“Towards Scalable Annotation of Math Word Problems: Knowledge Component Tagging via LLMs and Sentence Embeddings”**  
+> *Chor Seng Tan, Chengwei Wei, and Jung-Jae Kim*  
+> Institute for Infocomm Research, A*STAR, Singapore
 
-📄 Accepted at **The 33rd International Conference on Computers in Education (ICCE 2025)**.
+📄 Accepted at the **33rd International Conference on Computers in Education (ICCE 2025)**.
 
+---
 
-## 📊 Dataset
+## 📊 Knowledge Component (KC) Tagging Dataset
 
-We release the **Knowledge Component (KC) Tagging Dataset**, a collection of mathematical word problems annotated with step-level **knowledge components (KCs)**.
+We release the **KC Tagging Dataset**, a collection of mathematical word problems annotated at the **step level** with **knowledge components (KCs)**.  
 
-- **Hugging Face Datasets**: 👉 [AI4SoL/KC_Tagging](https://huggingface.co/datasets/AI4SoL/KC_Tagging)  
-- Includes splits from **ASDiv, GSM8K, and MATH**  
-- KC taxonomy provided in [`coherence_map.csv`](https://github.com/AI4SoL/KC-Tagging/blob/main/coherence_map.csv)  
-- **Status:**  
-  - ✅ ASDiv fully annotated  
-  - ⚠️ GSM8K and MATH splits under construction (partial annotations available)
+**Key resources:**
+- 🤗 Hugging Face dataset: [AI4SoL/KC_Tagging](https://huggingface.co/datasets/AI4SoL/KC_Tagging)  
+- KC taxonomy: [`coherence_map.csv`](https://github.com/AI4SoL/KC-Tagging/blob/main/coherence_map.csv)  
+
+**Included splits:**
+- **ASDiv** (fully annotated)  
+- **GSM8K** (in progress; partial annotations available)  
+- **MATH** (in progress; partial annotations available)  
+
+**Status:**  
+- ✅ **ASDiv** complete  
+- ⚠️ **GSM8K** and **MATH** under construction (updates will follow)  
+
 
 
 ## 📂 Repository Structure
 
-- `coherence_map.csv` – Unified KC taxonomy across datasets  
-- `README.md` – Project overview (this file)
+- `coherence_map.csv` – KC description
+- `README.md` – Project overview
 
 
 ## 📖 Citation
